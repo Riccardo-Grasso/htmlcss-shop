@@ -4,22 +4,17 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: blue;
-}
-
 .border-size {
     width: 80%;
     margin: 0 auto;
 }
 
 .product-container{
-    background-color: rgb(20, 220, 220);
     margin-top: 20px;
 }
   
 .product {
-    width: calc(100% / 3 - 3px);
+    width: calc(32% + 24px);
     position: relative;
     display: inline-block;
     margin-bottom: 10px;
