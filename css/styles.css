@@ -13,16 +13,9 @@ body {
     margin: 0 auto;
 }
 
-.container {
-    background-color: coral;
-    margin-top: 20px;
-}
-
 .product-container{
     background-color: rgb(20, 220, 220);
-    min-height: 250px;
-    /* word-spacing: -10px; */
-    /*word-spacing: 15px; */
+    margin-top: 20px;
 }
   
 .product {
