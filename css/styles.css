@@ -60,6 +60,17 @@ span.old-price {
     z-index: 9;
 }
 
+.product-only-sustainability {
+    position: absolute;
+    left: 0;
+    bottom: 130px;
+    background-color: #00855A;
+    padding: 6px;
+    color: white;
+    font-size: 20px;
+    z-index: 9;
+}
+
 .product-favourite {
     position: absolute;
     right: 0px;
@@ -89,4 +100,3 @@ span.old-price {
     display: block;
 }
   
-
