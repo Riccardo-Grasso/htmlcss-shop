@@ -19,9 +19,8 @@ body {
 }
   
 .product {
-    width: calc(100% / 3 - 13px);
+    width: calc(100% / 3 - 3px);
     position: relative;
-    overflow: hidden;
     display: inline-block;
     margin-bottom: 10px;
 }
