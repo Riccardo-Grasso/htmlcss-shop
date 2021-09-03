@@ -95,10 +95,7 @@ span.old-price {
     display: none;
 }
   
-  .product:hover .product-overlay {
+.product:hover .product-overlay {
     display: block;
 }
   
-  .product-overlay .overlay-center {
-    position: absolute;
-}
