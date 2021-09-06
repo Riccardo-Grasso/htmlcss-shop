@@ -14,7 +14,7 @@
 }
   
 .product {
-    width: calc(32% + 24px);
+    width: 33%;
     position: relative;
     display: inline-block;
     margin-bottom: 10px;
