@@ -74,16 +74,36 @@ span.old-price {
 
 .heart .product-favourite {
     position: absolute;
-    right: 10px;
-    top: 20px;
-    color: rgb(204, 5, 5);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(165, 165, 165);
     font-size: 35px;
     box-shadow: none;
 } 
 
-.product-favourite-overlay {
-    color: white;
+.over-container {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    z-index: 99;
+    display: none;
 }
+
+.heart .product-favourite-overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(179, 30, 30);
+    font-size: 35px;
+    box-shadow: none;
+}
+
+.heart:focus .over-container {
+    display: block;
+}
+
 
 .product:hover .heart {
     box-shadow: -6px 6px 9px rgb(182, 180, 180);
